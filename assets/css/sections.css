@@ -1,0 +1,86 @@
+/* ==========================
+   FONDO GENERAL
+========================== */
+
+html {
+    background: linear-gradient(var(--white), var(--white2));
+    scroll-behavior: smooth;
+}
+
+/* ==========================
+   SECCIONES
+========================== */
+
+section {
+    padding: 3rem 0;
+}
+
+/* ==========================
+   NAVBAR Y SECCIONES PARES
+========================== */
+
+#navbar,
+section.even {
+    background: linear-gradient(var(--primary), var(--primary-dark));
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer {
+    background: linear-gradient(var(--black), var(--black2));
+    padding: 2rem 0;
+}
+
+/* ==========================
+   HR ANIMADO
+========================== */
+
+hr {
+    border: none;
+    width: 100%;
+    height: 1.9px;
+    margin: 2rem 0;
+
+    background: rgba(255,255,255,.15);
+
+    position: relative;
+    overflow: hidden;
+}
+
+hr::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: -20%;
+
+    width: 20%;
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        var(--secondary),
+        transparent
+    );
+
+    animation: linea 2.5s linear infinite;
+}
+
+/* ==========================
+   ANIMACIÓN
+========================== */
+
+@keyframes linea {
+
+    0% {
+        left: -20%;
+    }
+
+    100% {
+        left: 100%;
+    }
+
+}

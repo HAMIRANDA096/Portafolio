@@ -1,0 +1,59 @@
+:root {
+
+    /* ==========================
+       COLORES PRINCIPALES
+    ========================== */
+
+    --primary: #34c3d9;
+    --primary-dark: #1fb3ca;
+    --primary-light: #7dddea;
+
+    --secondary: #ff9c42;
+    --secondary-dark: #ff8a1f;
+    --secondary-light: #ffc07a;
+
+    /* ==========================
+       BLANCOS
+    ========================== */
+
+    --white: #f5f9fa;
+    --white2: #ebf3f5;
+
+    /* ==========================
+       GRISES
+    ========================== */
+
+    --gray: #e1e4e5;
+    --gray2: #c0c6c9;
+    --gray3: #4b4c4d;
+
+    /* ==========================
+       NEGROS
+    ========================== */
+
+    --black: #323333;
+    --black2: #2a2b2b;
+    --black3: #1c1d1d;
+
+    /* ==========================
+       ESTADOS
+    ========================== */
+
+    --success: #2ecc71;
+    --danger: #e74c3c;
+    --warning: #f1c40f;
+    --info: #3498db;
+
+    /* ==========================
+       EFECTOS
+    ========================== */
+
+    --shadow: rgba(0, 0, 0, 0.25);
+    --shadow-dark: rgba(0, 0, 0, 0.45);
+
+    --glass: rgba(255, 255, 255, 0.15);
+    --glass-dark: rgba(255, 255, 255, 0.08);
+
+    --transition: .3s ease;
+    --radius: 12px;
+}

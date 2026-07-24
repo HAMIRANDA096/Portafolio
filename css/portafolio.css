@@ -1,0 +1,117 @@
+/* ==========================
+   PORTAFOLIO
+========================== */
+
+#portafolio button {
+    display: block;
+    position: relative;
+    margin: 1rem auto;
+    max-width: 400px;
+    width: 100%;
+    overflow: hidden;
+
+    border: none;
+    border-radius: var(--radius);
+
+    padding: 0;
+
+    background: transparent;
+
+    cursor: zoom-in;
+
+    box-shadow: 0 5px 15px var(--shadow);
+    transition: transform .3s ease,
+                box-shadow .3s ease;
+}
+
+/* Efecto al pasar el mouse */
+
+#portafolio button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px var(--shadow-dark);
+}
+
+/* Imagen */
+
+#portafolio img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform .4s ease;
+}
+
+#portafolio button:hover img {
+    transform: scale(1.15);
+}
+
+/* Capa azul */
+
+#portafolio button::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: var(--primary);
+
+    opacity: 0;
+    transition: opacity .3s ease;
+
+    z-index: 1;
+}
+
+#portafolio button:hover::before {
+    opacity: .75;
+}
+
+/* Título */
+
+#portafolio h4 {
+    position: absolute;
+
+    left: 50%;
+    bottom: 20%;
+
+    transform: translateX(-50%);
+
+    margin: 0;
+
+    color: var(--white);
+
+    letter-spacing: .2rem;
+
+    opacity: 0;
+
+    z-index: 2;
+
+    transition: all .3s ease;
+}
+
+#portafolio button:hover h4 {
+    bottom: 28%;
+    opacity: 1;
+}
+
+/* Ícono Zoom */
+
+#portafolio button::after {
+    content: url("../assets/img/icons/zoom.svg");
+
+    position: absolute;
+
+    left: 50%;
+    top: 40%;
+
+    transform: translate(-50%, -50%) scale(.7);
+
+    opacity: 0;
+
+    z-index: 2;
+
+    transition: all .3s ease;
+}
+
+#portafolio button:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: .9;
+}
