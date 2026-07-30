@@ -13,8 +13,8 @@ formulario.addEventListener("submit", function(e) {
     e.preventDefault();
     alert("Formulario enviado");
 });
-// const form = document.querySelector("form");
-// form.addEventListener("submit", function(event) {
-//     event.preventDefault();
-//     alert("Formulario enviado");
-// });
+const form = document.querySelector("form");
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("Formulario enviado");
+});

@@ -1,0 +1,24 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Mi portafolio",
+  "homepage": "https://github.com/HAMIRANDA096/Portafolio#readme",
+  "bugs": {
+    "url": "https://github.com/HAMIRANDA096/Portafolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HAMIRANDA096/Portafolio.git"
+  },
+  "license": "ISC",
+  "author": "Armando Miranda Ayala",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}
