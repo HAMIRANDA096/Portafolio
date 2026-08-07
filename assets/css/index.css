@@ -1,0 +1,13 @@
+@import "./main.css";
+@import "./contact.css";
+@import "./experience.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./nav.css";
+@import "./portfolio.css";
+@import "./sections.css";
+@import "./skillset.css";
+@import "./utils.css";
+
+@import "animate.css/animate.min.css";
+@import "eins-modal/dist/css/eins-modal-plain.min.css";
